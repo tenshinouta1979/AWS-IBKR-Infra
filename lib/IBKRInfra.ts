@@ -63,7 +63,7 @@ export class IBKRInfra extends cdk.Stack {
             resourceType: 'VPC',
             trafficType: 'ALL',
             logDestinationType: 's3',
-            logDestination: 'arn:aws:s3:::mylogs'
+            logDestination: 'arn:aws:s3:::ibkrinfra-mytrailbucket1a8435df-gzqxjoq5lhki/mylogs'
         });
 
         //create AWS CloudTrail
